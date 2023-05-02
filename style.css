@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background: url("https://c0.wallpaperflare.com/preview/934/105/169/russia-uva-color-dark.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+
+.now {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.second{
+    font-size: 7px;
+    align-self: flex-start;
+    margin-left: 10px;
+}
+
+.time {
+    display: flex;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.dayTime {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    fill: white;
+    margin-top: 50px;
+}
+
+.dayTime .greeting h1,
+.dayTime .greeting span {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    width: 100px;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.icon i {
+    font-size: 20px;
+    color: white;
+}
+
+.icon p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.location p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+}
+
+.searchBar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.search {
+    display: flex;
+    width: 100%;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search input {
+    padding: 5px 5px 5px 10px;
+    width: 90%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    color: aliceblue;
+}
+
+.cover {
+    backdrop-filter: blur(5px);
+    width: 50%;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+}
+
+.icons {
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cover input:focus+.icons {
+    display: flex;
+}
+
+.qoute {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: white;
+}
+
+.q p {
+    font-size: 16px
+}
+
+.q .writer {
+    font-size: 12px;
+    font-style: italic;
+    text-align: right;
+}
+
+.social-icons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-right: 10px;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+.tab:hover {
+    background-color: #f5f5f5;
+}
+
+.tab i {
+    margin-right: 10px;
+}
+
+.github-tab {
+    border-color: #6e5494;
+}
+
+.github-tab:hover {
+    background-color: #6e5494;
+    color: #fff;
+}
+
+.youtube-tab {
+    border-color: #c4302b;
+}
+
+.youtube-tab:hover {
+    background-color: #c4302b;
+    color: #fff;
+}
+
+.linkedin-tab {
+    border-color: #0077b5;
+}
+
+.linkedin-tab:hover {
+    background-color: #0077b5;
+    color: #fff;
+}
+
+.facebook-tab {
+    border-color: #3b5998;
+}
+
+.facebook-tab:hover {
+    background-color: #3b5998;
+    color: #fff;
+}
+.homeIcon{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: white;
+}
+a{
+    text-decoration: none;
+}
