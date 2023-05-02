@@ -17,5 +17,12 @@
 ## Authors
 
 - [@azaanUllahKhan](https://github.com/AzaanUllah-Khan)
+<hr>
+
+![image](https://user-images.githubusercontent.com/121516991/235773503-e67fda81-e9cc-4737-ba60-e646ec116d46.png)
+
+![image](https://user-images.githubusercontent.com/121516991/235773817-ee2ace2e-c86a-4e0f-9108-ebd0f9e05630.png)
+
+![image](https://user-images.githubusercontent.com/121516991/235774070-20471336-ae7e-4b50-b421-38bd26de5e82.png)
 
 
