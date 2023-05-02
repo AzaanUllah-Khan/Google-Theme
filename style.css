@@ -6,7 +6,7 @@
 }
 
 body {
-    background: url("https://c0.wallpaperflare.com/preview/934/105/169/russia-uva-color-dark.jpg");
+    background-image: url("https://c0.wallpaperflare.com/preview/934/105/169/russia-uva-color-dark.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100vh;
 }
@@ -220,4 +220,10 @@ body {
 }
 a{
     text-decoration: none;
+}
+.azaaan{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
 }
